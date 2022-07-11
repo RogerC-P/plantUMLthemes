@@ -9,12 +9,14 @@
 
 !$BLACK  = "#005a8a"
 !$BLUE   = "#69bee7"
-!$ORANGE = "#f28c24"
+!$ORANGE = "#fbd000"
 !$RED    = "#f28c24"
-!$WHITE  = "#f8f7f6"
+!$WHITE  = "#878786"
+!$GRAY   = "#878786"
+
 
 !$BGCOLOR = $BLUE
-!$FGCOLOR = $WHITE
+!$FGCOLOR = $GRAY
 
 !ifndef $FONT_NAME
   !$FONT_NAME = "Verdana"
