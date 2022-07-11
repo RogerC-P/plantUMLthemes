@@ -30,47 +30,50 @@ skinparam useBetaStyle false
 
 !$WHITE = $EPC_WHITE
 !$BLACK = "#0"
+!$RED = "#e03319"
+!$GREEN = "##1eb510"
+
 ''arrows
 !$PRIMARY = $EPC_DARKGRAY
 ''nothing
 !$SECONDARY = $EPC_LIGHTBLUE
 ''nothing
-!$SUCCESS = "#56cc9d"
-!$INFO = "#6cc3d5"
+!$SUCCESS = $GREEN
+!$INFO = $EPC_MEDIUMBLUE
 !$WARNING = $EPC_YELLOW
-!$DANGER = $EPC_YELLOW
-!$LIGHT = "#f8f9fa"
-!$DARK = "#343a40"
+!$DANGER = $EPC_ORANGE
+!$DARK = $EPC_DARKBLUE
+!$LIGHT = $EPC_WHITE
 
 ''text
-!$FGCOLOR = "#0"
+!$FGCOLOR = $BLACK
 ''start circle
-!$PRIMARY_DARK = "#0"
+!$PRIMARY_DARK = $BLACK
 '' state boxes
 !$PRIMARY_LIGHT = $WHITE
-!$PRIMARY_TEXT = "#0"
+!$PRIMARY_TEXT = $BLACK
 ''decision box borders
-!$SECONDARY_DARK = $EPC_DARKGRAY
+!$SECONDARY_DARK = $EPC_TURQUOISE
 ''decision boxes
 !$SECONDARY_LIGHT = $EPC_LIGHTBLUE
 ''text in boxes
-!$SECONDARY_TEXT = "#0"
-!$INFO_DARK = "#61b0c0"
-!$INFO_LIGHT = "#7bc9d9"
-!$INFO_TEXT = "#0"
-!$SUCCESS_DARK = "#0"
-!$SUCCESS_LIGHT = "#0"
-!$SUCCESS_TEXT = "#0"
+!$SECONDARY_TEXT = $BLACK
+!$INFO_DARK = $EPC_DARKBLUE
+!$INFO_LIGHT = $EPC_MEDIUMBLUE
+!$INFO_TEXT = $BLACK
+!$SUCCESS_DARK = $BLACK
+!$SUCCESS_LIGHT = $BLACK
+!$SUCCESS_TEXT = $BLACK
 !$WARNING_DARK = $EPC_ORANGE
 !$WARNING_LIGHT = $EPC_YELLOW
-!$WARNING_TEXT = "#0"
-!$DANGER_DARK = "#e66c49"
-!$DANGER_LIGHT = "#ff8662"
-!$DANGER_TEXT = "#0"
-!$DARK_DARK = "#2f343a"
-!$DARK_LIGHT = "#484e53"
-!$LIGHT_DARK = "#dfe0e1"
-!$LIGHT_LIGHT = "#f9fafb"
+!$WARNING_TEXT = $BLACK
+!$DANGER_DARK = $RED
+!$DANGER_LIGHT = $RED
+!$DANGER_TEXT = $BLACK
+!$DARK_DARK = $EPC_DARKGRAY
+!$DARK_LIGHT = $EPC_DARKGRAY
+!$LIGHT_DARK = $EPC_GRAY
+!$LIGHT_LIGHT = $EPC_GRAY
 
 !procedure $success($msg)
   <font color=$SUCCESS><b>$msg
@@ -199,7 +202,7 @@ skinparam useBetaStyle false
 ''
 '' Global Default Values
 ''
-skinparam defaultFontName       "Verdana"
+skinparam defaultFontName       "Franklin Gothic Heavy"
 skinparam defaultFontSize       12
 skinparam dpi                   100
 skinparam shadowing             false
