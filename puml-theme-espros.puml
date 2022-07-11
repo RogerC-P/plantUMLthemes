@@ -19,6 +19,7 @@ skinparam useBetaStyle false
 
 !$EPC_LIGHTBLUE = "#69bee7"
 !$EPC_WHITE = "#f8f7f6"
+!$EPC_LIGHTGRAY = "#ebe9ea"
 !$EPC_GRAY = "#d9d9d8"
 !$EPC_DARKGRAY = "#878786"
 !$EPC_YELLOW = "#fbd000"
@@ -27,68 +28,45 @@ skinparam useBetaStyle false
 !$EPC_TURQUOISE = "#21bfd9"
 !$EPC_MEDIUMBLUE = "#009cc8"
 
+!$WHITE = $EPC_WHITE
 
-
-''nothing
-!$BLUE = "#007bff"
-''nothing
-!$INDIGO = "#6610f2"
-''nothing
-!$PURPLE = "#6f42c1"
-''nothing
-!$PINK = "#e83e8c"
-''nothing
-!$RED = "#ff7851"
-''nothing
-!$ORANGE = "#fd7e14"
-''nothing
-!$YELLOW = "#ffce67"
-''nothing
-!$GREEN = "#56cc9d"
-''nothing
-!$TEAL = "#20c997"
-''nothing
-!$CYAN = "#6cc3d5"
-!$WHITE = "#fff"
-!$GRAY = "#888"
-!$GRAYDARK = "#343a40"
 ''arrows
-!$PRIMARY = "#878786"
+!$PRIMARY = $EPC_DARKGRAY
 ''nothing
-!$SECONDARY = "#f3969a"
+!$SECONDARY = $EPC_LIGHTBLUE
 ''nothing
 !$SUCCESS = "#56cc9d"
 !$INFO = "#6cc3d5"
-!$WARNING = "#ffce67"
-!$DANGER = "#ff7851"
+!$WARNING = $EPC_YELLOW
+!$DANGER = $EPC_YELLOW
 !$LIGHT = "#f8f9fa"
 !$DARK = "#343a40"
 
-
-!$FGCOLOR = $WHITE
+''text
+!$FGCOLOR = "#0"
 ''start circle
 !$PRIMARY_DARK = "#0"
 '' state boxes
-!$PRIMARY_LIGHT = "#69bee7"
-!$PRIMARY_TEXT = $WHITE
+!$PRIMARY_LIGHT = $EPC_LIGHTBLUE
+!$PRIMARY_TEXT = "#0"
 ''decision box borders
-!$SECONDARY_DARK = "#d9d9d8"
+!$SECONDARY_DARK = $EPC_ORANGE
 ''decision boxes
-!$SECONDARY_LIGHT = "#ebe9ea"
+!$SECONDARY_LIGHT = $EPC_YELLOW
 ''text in boxes
 !$SECONDARY_TEXT = "#0"
 !$INFO_DARK = "#61b0c0"
 !$INFO_LIGHT = "#7bc9d9"
-!$INFO_TEXT = $WHITE
+!$INFO_TEXT = "#0"
 !$SUCCESS_DARK = "#0"
 !$SUCCESS_LIGHT = "#0"
-!$SUCCESS_TEXT = $WHITE
-!$WARNING_DARK = "#e6b95d"
-!$WARNING_LIGHT = "#ffd376"
-!$WARNING_TEXT = $WHITE
+!$SUCCESS_TEXT = "#0"
+!$WARNING_DARK = $EPC_ORANGE
+!$WARNING_LIGHT = $EPC_YELLOW
+!$WARNING_TEXT = "#0"
 !$DANGER_DARK = "#e66c49"
 !$DANGER_LIGHT = "#ff8662"
-!$DANGER_TEXT = $WHITE
+!$DANGER_TEXT = "#0"
 !$DARK_DARK = "#2f343a"
 !$DARK_LIGHT = "#484e53"
 !$LIGHT_DARK = "#dfe0e1"
@@ -118,7 +96,7 @@ skinparam useBetaStyle false
   root {
     BackgroundColor $BGCOLOR
     FontColor $PRIMARY_TEXT
-    HyperLinkColor $ORANGE
+    HyperLinkColor $EPC_ORANGE
     LineColor $PRIMARY_DARK
     LineThickness 1
     Margin 10
