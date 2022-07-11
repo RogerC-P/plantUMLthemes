@@ -189,9 +189,9 @@ skinparam defaultFontName       "Verdana"
 skinparam defaultFontSize       12
 skinparam dpi                   100
 skinparam shadowing             false
-skinparam roundcorner           8
-skinparam ParticipantPadding    40
-skinparam BoxPadding            40
+skinparam roundcorner           4
+skinparam ParticipantPadding    30
+skinparam BoxPadding            30
 skinparam Padding               5
 skinparam ArrowColor            $DARK
 skinparam stereotype {
