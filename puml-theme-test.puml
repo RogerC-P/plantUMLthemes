@@ -8,7 +8,7 @@
 !$THEME = "blueprint"
 
 !$BGCOLOR = "#f8f7f6"
-!$FGCOLOR = "#D9D3D0"
+!$FGCOLOR = "#f8f7f6"
 
 !ifndef $FONT_NAME
   !$FONT_NAME = "Verdana"
