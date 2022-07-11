@@ -14,22 +14,22 @@ skinparam backgroundColor $BGCOLOR
 skinparam useBetaStyle false
 
 ''
-'' Colors taken from EPR 5.1
+'' Espros Colors taken from EPR 5.1
 ''
-
-!$EPC_LIGHTBLUE = "#69bee7"
 !$EPC_WHITE = "#f8f7f6"
 !$EPC_LIGHTGRAY = "#ebe9ea"
 !$EPC_GRAY = "#d9d9d8"
 !$EPC_DARKGRAY = "#878786"
-!$EPC_YELLOW = "#fbd000"
-!$EPC_ORANGE = "#f28c24"
-!$EPC_DARKBLUE = "#005a8a"
+!$EPC_LIGHTBLUE = "#69bee7"
 !$EPC_TURQUOISE = "#21bfd9"
 !$EPC_MEDIUMBLUE = "#009cc8"
+!$EPC_DARKBLUE = "#005a8a"
+!$EPC_YELLOW = "#fbd000"
+!$EPC_ORANGE = "#f28c24"
+
 
 !$WHITE = $EPC_WHITE
-
+!$BLACK = "#0"
 ''arrows
 !$PRIMARY = $EPC_DARKGRAY
 ''nothing
@@ -47,12 +47,12 @@ skinparam useBetaStyle false
 ''start circle
 !$PRIMARY_DARK = "#0"
 '' state boxes
-!$PRIMARY_LIGHT = $EPC_LIGHTBLUE
+!$PRIMARY_LIGHT = $WHITE
 !$PRIMARY_TEXT = "#0"
 ''decision box borders
-!$SECONDARY_DARK = $EPC_ORANGE
+!$SECONDARY_DARK = $EPC_DARKGRAY
 ''decision boxes
-!$SECONDARY_LIGHT = $EPC_YELLOW
+!$SECONDARY_LIGHT = $EPC_LIGHTBLUE
 ''text in boxes
 !$SECONDARY_TEXT = "#0"
 !$INFO_DARK = "#61b0c0"
@@ -105,7 +105,7 @@ skinparam useBetaStyle false
   }
   node {
    Padding 15
-   roundcorner 20
+   roundcorner 10
    BackgroundColor $PRIMARY-$PRIMARY_DARK
   }
   caption {
@@ -136,9 +136,9 @@ skinparam useBetaStyle false
 	FontSize 20
 	BorderRoundCorner            8
 	BorderThickness 	         1
-	BackgroundColor  $SECONDARY_LIGHT-$SECONDARY
-	FontColor $PRIMARY
-	BorderColor $SECONDARY
+	BackgroundColor  $EPC_WHITE
+	FontColor "#0"
+	BorderColor $EPC_WHITE
   }
   nwdiagDiagram {
 	network {
@@ -221,12 +221,12 @@ skinparam stereotype {
     NBorderColor $INFO_DARK
 }
 skinparam title {
-	FontColor	                 $PRIMARY_DARK
-	BorderColor	                 $SECONDARY_DARK
+	FontColor	                 $EPC_WHITE
+	BorderColor	                 $EPC_WHITE
 	FontSize	    	         20
 	BorderRoundCorner            8
 	BorderThickness 	         1
-	BackgroundColor              $SECONDARY_LIGHT-$SECONDARY
+	BackgroundColor              $EPC_LIGHTBLUE
 }
 
 skinparam legend {
